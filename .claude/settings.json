@@ -1,0 +1,11 @@
+{
+  "enabledPlugins": {
+    "vercel@claude-plugins-official": true
+  },
+  "skipDangerousModePermissionPrompt": true,
+  "theme": "dark",
+  "statusLine": {
+    "type": "command",
+    "command": "bash /home/codespace/.claude/statusline-command.sh"
+  }
+}
