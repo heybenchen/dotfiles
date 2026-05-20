@@ -165,3 +165,5 @@ eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv bash)"
 alias cct='tmux new-session -A -s claude "claude --dangerously-skip-permissions"'
 
 alias cc='claude --dangerously-skip-permissions'
+
+alias dashboard='cd /workspaces/jacqueline-career-ops/dashboard && go run .'
